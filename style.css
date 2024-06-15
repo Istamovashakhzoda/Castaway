@@ -188,7 +188,7 @@ ul li {
 .part3 {
   margin-top: 50px;
   height: 400px;
-  width: 80%;
+  width: 90%;
   display: flex;
   background-color: #000;
   border-radius: 15px;
@@ -224,6 +224,56 @@ ul li {
 
 .buttons input::placeholder {
   font-size: 19px;
+  text-align: left;
+}
+
+.buttons button {
+  background-color: rgb(5, 68, 108);
+  font-size: 22px;
+  padding: 13px 15px;
+  border-radius: 8px;
+  border: none;
+  color: #ffff;
+  margin-right: 430px;
+  margin-top: 20px;
+}
+
+.part4 {
   display: flex;
-  justify-content: flex-start;
+  gap: 40px;
+  width: 90%;
+  margin-top: 90px;
+}
+
+.boxs {
+  width: 650px;
+  height: 360px;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.stars {
+  padding: 60px 0 0 50px;
+}
+
+.boxs h2 {
+  width: 362px;
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+
+.boxs p {
+  font-family: sans-serif;
+  padding: 20px 0 0 50px;
+  color: rgb(17, 57, 72);
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.part5 {
+  display: flex;
+  gap: 40px;
+  width: 90%;
+  margin-top: 40px;
 }
