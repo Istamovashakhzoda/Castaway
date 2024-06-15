@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(30, 29, 29);
 }
 
 .navbar {
@@ -48,7 +48,7 @@ ul li {
 
 .header_image img {
   border-radius: 60px;
-  height: 810px;
+  height: 880px;
   width: 670px;
 }
 
@@ -56,6 +56,37 @@ ul li {
   width: 540px;
   font-size: 36px;
   color: #ffff;
-  font-weight: 100;
+  font-weight: thin;
   font-family: sans-serif;
+  padding-top: 150px;
+}
+
+.header_information span {
+  border-bottom: 5px solid lightskyblue;
+}
+
+.devices {
+  padding-top: 220px;
+  font-size: 18px;
+}
+
+.part1 {
+  margin: 55px;
+  display: flex;
+  align-items: center;
+  font-family: Cactus Classical Serif;
+}
+
+.part1 h1 {
+  font-size: 66px;
+  color: #ffff;
+}
+
+.episodes {
+  background-color: lightskyblue;
+  color: #ffff;
+  font-size: 25px;
+  padding: 13px 15px;
+  border-radius: 8px;
+  border: none;
 }
