@@ -36,7 +36,7 @@ ul li {
 
 .links ul li:hover {
   cursor: pointer;
-  color: lightskyblue;
+  color: rgb(5, 68, 108);
 }
 
 .header_section {
@@ -62,7 +62,7 @@ ul li {
 }
 
 .header_information span {
-  border-bottom: 5px solid lightskyblue;
+  border-bottom: 5px solid rgb(5, 68, 108);
 }
 
 .devices {
@@ -82,27 +82,148 @@ ul li {
 }
 
 .episodes {
-  background-color: lightskyblue;
+  background-color: rgb(5, 68, 108);
   font-size: 25px;
   padding: 13px 15px;
   border-radius: 8px;
   border: none;
+  color: #ffff;
 }
 
 .episode1 {
   height: 540px;
-  width: 75%;
+  width: 80%;
   display: flex;
   background-color: #000;
   border-radius: 15px;
 }
 
 .episode_img img {
-  width: 470px;
+  width: 440px;
   height: 515px;
   border-radius: 9px;
   padding: 20px 0 0 20px;
 }
 
 .episodes_information {
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.black {
+  background-color: rgb(30, 29, 29);
+  padding: 5px 12px;
+  color: #ffff;
+  border: none;
+}
+
+.episodes_information h3 {
+  color: rgb(5, 68, 108);
+  font-family: sans-serif;
+}
+
+.episodes_information h1 {
+  font-size: 55px;
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+
+.episodes_information p {
+  font-family: sans-serif;
+  line-height: 2;
+}
+
+.episode2 {
+  margin-top: 50px;
+  height: 540px;
+  width: 80%;
+  display: flex;
+  background-color: #000;
+  border-radius: 15px;
+}
+
+.part2 {
+  display: flex;
+  margin: 190px 100px;
+  align-items: center;
+}
+
+.right_arrow {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgb(5, 68, 108);
+  color: #ffff;
+}
+
+.part2 img {
+  border-radius: 60px;
+  height: 880px;
+  width: 720px;
+}
+
+.part2_information {
+  padding-right: 60px;
+}
+
+.part2 h3 {
+  color: rgb(5, 68, 108);
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.part2 h1 {
+  font-size: 66px;
+  font-family: sans-serif;
+}
+
+.part2 p {
+  width: 490px;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+
+.part3 {
+  margin-top: 50px;
+  height: 400px;
+  width: 80%;
+  display: flex;
+  background-color: #000;
+  border-radius: 15px;
+}
+
+.part_heads h3 {
+  color: rgb(5, 68, 108);
+  font-size: 24px;
+  font-family: sans-serif;
+  padding-top: 90px;
+}
+
+.part_heads h1 {
+  width: 370px;
+  font-size: 66px;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+
+.buttons form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.buttons input {
+  padding: 26px 180px;
+  background-color: rgb(30, 29, 29);
+  border: none;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.buttons input::placeholder {
+  font-size: 19px;
+  display: flex;
+  justify-content: flex-start;
 }
