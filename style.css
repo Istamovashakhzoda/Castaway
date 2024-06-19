@@ -55,7 +55,6 @@ ul li {
 .header_information {
   width: 540px;
   font-size: 36px;
-  /* color: #ffff; */
   font-weight: thin;
   font-family: sans-serif;
   padding-top: 150px;
@@ -65,26 +64,17 @@ ul li {
   border-bottom: 5px solid rgb(5, 68, 108);
 }
 
-/* .devices {
-  padding-top: 220px;
-  font-size: 18px;
-} */
 @import url(//fonts.googleapis.com/css?family=Vibur);
 .logo {
   text-align: center;
   width: 65%;
   height: 250px;
-  margin: auto;
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; */
+  margin: 180px 0 0 -15px;
   user-select: none;
 }
 
 .logo b {
-  font: 400 19vh "Vibur";
+  font: 300 15vh "Vibur";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444,
     0 0 0.1em #ff4444, 0 10px 3px #000;
@@ -128,7 +118,6 @@ ul li {
   }
 }
 
-/* follow me @nodws */
 #btn-twtr {
   clear: both;
   color: #fff;
@@ -142,11 +131,7 @@ ul li {
   width: 13em;
   padding: 5px 10px;
   font-weight: 600;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  margin: -110px 0 0 -15px;
   background: rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
   opacity: 0.4;
