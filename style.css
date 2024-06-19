@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cactus+Classical+Serif:regular);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0 auto;
@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Cactus Classical Serif;
+  font-family: Noto Sans;
   margin-top: 20px;
   gap: 40%;
 }
@@ -65,16 +65,101 @@ ul li {
   border-bottom: 5px solid rgb(5, 68, 108);
 }
 
-.devices {
+/* .devices {
   padding-top: 220px;
   font-size: 18px;
+} */
+@import url(//fonts.googleapis.com/css?family=Vibur);
+.logo {
+  text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: auto;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  user-select: none;
 }
 
+.logo b {
+  font: 400 19vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444,
+    0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logo b span {
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+/* follow me @nodws */
+#btn-twtr {
+  clear: both;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 13em;
+  padding: 5px 10px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0.4;
+}
+#btn-twtr:hover {
+  color: #fff;
+  opacity: 1;
+}
 .part1 {
   margin: 55px;
   display: flex;
   align-items: center;
-  font-family: Cactus Classical Serif;
+  font-family: Noto Sans;
 }
 
 .part1 h1 {
@@ -186,7 +271,7 @@ ul li {
 }
 
 .part3 {
-  margin-top: 50px;
+  margin-top: 190px;
   height: 400px;
   width: 90%;
   display: flex;
@@ -242,7 +327,7 @@ ul li {
   display: flex;
   gap: 40px;
   width: 90%;
-  margin-top: 90px;
+  margin-top: 190px;
 }
 
 .boxs {
@@ -281,8 +366,8 @@ ul li {
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 130px;
-  width: 80%;
+  margin-top: 180px;
+  width: 90%;
 }
 
 .socialMedias {
@@ -302,11 +387,16 @@ footer {
 
 .socialMedias h1 {
   font-size: 47px;
-  font-family: Cactus Classical Serif;
+  font-family: Noto Sans;
 }
 
 .links_Footer {
   line-height: 30px;
-  font-family: Cactus Classical Serif;
+  font-family: Noto Sans;
   font-size: 28px;
+}
+
+.links_Footer ul li:hover {
+  cursor: pointer;
+  color: rgb(5, 68, 108);
 }
