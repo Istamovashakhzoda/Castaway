@@ -160,6 +160,12 @@ ul li {
   color: #ffff;
 }
 
+.episodes:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+  transform: scale(1.07);
+}
+
 .episode1 {
   height: 540px;
   width: 80%;
