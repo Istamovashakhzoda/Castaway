@@ -20,8 +20,14 @@ body {
 }
 
 .navbar1 {
-  font-size: 22px;
+  font-size: 25px;
   margin-left: 150px;
+}
+
+.navbar1:hover {
+  border-bottom: 1.06px solid blue;
+  font-size: 27px;
+  cursor: pointer;
 }
 
 .links ul {
@@ -36,7 +42,9 @@ ul li {
 
 .links ul li:hover {
   cursor: pointer;
-  color: rgb(5, 68, 108);
+  color: rgb(32, 79, 166);
+  font-size: 22px;
+  border-bottom: 1px solid blue;
 }
 
 .header_section {
